@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vis_avs - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Justin\AppData\Local\Temp\RSP186D.tmp" with contents
+[
+/nologo /G6 /MD /W3 /O2 /Ob2 /I "evallib/" /D "NDEBUG" /D "WA2_EMBED" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VIS_PL_EXPORTS" /D "NSEEL_EEL1_COMPAT_MODE" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\mhc\vis_avs\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Justin\AppData\Local\Temp\RSP186D.tmp" 
+Creating temporary file "C:\Users\Justin\AppData\Local\Temp\RSP187E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib vfw32.lib /nologo /dll /incremental:no /pdb:"Release/vis_chavs.pdb" /map:"Release/vis_chavs.map" /machine:I386 /out:"c:\progra~2\winamp\plugins\vis_chavs.dll" /implib:"Release/vis_chavs.lib" 
+.\Release\r_avi.obj
+.\Release\r_blit.obj
+.\Release\r_blur.obj
+.\Release\r_bpm.obj
+.\Release\r_bright.obj
+.\Release\r_bspin.obj
+.\Release\r_bump.obj
+.\Release\r_chanshift.obj
+.\Release\r_clear.obj
+.\Release\r_colorfade.obj
+.\Release\r_colorreduction.obj
+.\Release\r_comment.obj
+.\Release\r_contrast.obj
+.\Release\r_dcolormod.obj
+.\Release\r_ddm.obj
+.\Release\r_dmove.obj
+.\Release\r_dotfnt.obj
+.\Release\r_dotgrid.obj
+.\Release\r_dotpln.obj
+.\Release\r_fadeout.obj
+.\Release\r_fastbright.obj
+.\Release\r_grain.obj
+.\Release\r_interf.obj
+.\Release\r_interleave.obj
+.\Release\r_invert.obj
+.\Release\r_linemode.obj
+.\Release\r_mirror.obj
+.\Release\r_mosaic.obj
+.\Release\r_multidelay.obj
+.\Release\r_multiplier.obj
+.\Release\r_nfclr.obj
+.\Release\r_onetone.obj
+.\Release\r_oscring.obj
+.\Release\r_oscstar.obj
+.\Release\r_parts.obj
+.\Release\r_picture.obj
+.\Release\r_rotblit.obj
+.\Release\r_rotstar.obj
+.\Release\r_scat.obj
+.\Release\r_shift.obj
+.\Release\r_simple.obj
+.\Release\r_sscope.obj
+.\Release\r_stack.obj
+.\Release\r_stars.obj
+.\Release\r_svp.obj
+.\Release\r_text.obj
+.\Release\r_timescope.obj
+.\Release\r_trans.obj
+.\Release\r_videodelay.obj
+.\Release\r_water.obj
+.\Release\r_waterbump.obj
+".\Release\nseel-caltab.obj"
+".\Release\nseel-cfunc.obj"
+".\Release\nseel-compiler.obj"
+".\Release\nseel-eval.obj"
+".\Release\nseel-lextab.obj"
+".\Release\nseel-ram.obj"
+".\Release\nseel-yylex.obj"
+.\Release\avs_eelif.obj
+.\Release\linedraw.obj
+.\Release\matrix.obj
+.\Release\r_list.obj
+.\Release\r_transition.obj
+.\Release\r_unkn.obj
+.\Release\util.obj
+.\Release\rl_beathold.obj
+.\Release\rl_bren.obj
+.\Release\rl_cones.obj
+.\Release\rl_line.obj
+.\Release\rl_trans.obj
+.\Release\laser.obj
+.\Release\laserline.obj
+.\Release\ld32.obj
+.\Release\linelist.obj
+.\Release\bpm.obj
+.\Release\cfgwin.obj
+.\Release\draw.obj
+.\Release\main.obj
+.\Release\render.obj
+.\Release\rlib.obj
+.\Release\TIMING.OBJ
+.\Release\undo.obj
+.\Release\wnd.obj
+.\Release\res.res
+]
+Creating command line "link.exe @C:\Users\Justin\AppData\Local\Temp\RSP187E.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+   Creating library Release/vis_chavs.lib and object Release/vis_chavs.exp
+
+
+
+<h3>Results</h3>
+vis_chavs.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
